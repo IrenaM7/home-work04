@@ -279,6 +279,42 @@ ul{
 
 }
 
+.socials.list{
+  display: flex;
+  gap: 24px;
+  padding-left: 0px;
+  justify-content: center;
+  margin-top: 8px;
+  
+}
+.socials-item{ 
+  width: 40px;
+  height: 40px;
+}
+
+.socials-link.link,
+.socials-links.link{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color:var(--iris-primary-brand) ;
+  
+}
+
+.socials-link.link:hover,
+.socials-link.link:focus{
+  background-color:var(--ocean-pressed-state);
+}
+
+.socials-icons{
+  fill: var(--cloud-light);
+}
+
 /*section Our Portfolio*/
 .portfolio-list{
   display: flex;
@@ -329,4 +365,28 @@ ul{
   letter-spacing: 0.02em;
   color: var(--cloud-light);
 
+}
+.foot.container{
+  display: flex;
+  align-items: baseline;
+}
+.footer-text-soc{
+  color:var(--white-background);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.02em;
+  margin-top: 0;
+}
+.footer-cont{
+  margin-right: 120px;
+}
+.footer-soc.list{
+  display: flex;
+  gap: 16px;
+   
+}
+.socials-links.link:hover,
+.socials-links.link:focus{
+  background-color: var(--green-succes);
 }
