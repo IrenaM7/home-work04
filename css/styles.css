@@ -279,7 +279,7 @@ ul{
 
 }
 
-.socials.list{
+.socials-list{
   display: flex;
   gap: 24px;
   padding-left: 0px;
@@ -361,7 +361,7 @@ ul{
   max-width: 264px;
 
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud-light);
 
@@ -374,14 +374,14 @@ ul{
   color:var(--white-background);
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height:1.5;
   letter-spacing: 0.02em;
   margin-top: 0;
 }
 .footer-cont{
   margin-right: 120px;
 }
-.footer-soc.list{
+.footer-soc-list{
   display: flex;
   gap: 16px;
    
