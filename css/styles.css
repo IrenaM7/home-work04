@@ -232,6 +232,7 @@ ul{
   background-color:var(--cloud-light);
 
   border-radius: 4px;
+  border: 1px solid var(--light-slate-subtle-text);
   margin-bottom: 8px;
   width: 264px;
   height: 112px;  
