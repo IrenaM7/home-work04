@@ -337,7 +337,7 @@ ul{
   border-radius: 50%;
   cursor: pointer;
   background-color:var(--iris-primary-brand) ;
-  
+  transition:background-color var(--trans--) ;
 }
 
 .socials-link:hover,
